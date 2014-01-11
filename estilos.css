@@ -143,6 +143,10 @@ nav ul
 {
 	display: none;
 }
+#slider
+	{
+		display: none;
+	}
 #contenido
 {
 	margin:1em;
