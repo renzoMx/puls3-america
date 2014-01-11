@@ -111,6 +111,61 @@
 		font-size: 1.2em;
 		padding: 0.5em 0;
 	}
+	#slider
+	{
+		border-bottom: 3px solid #F50;
+		display: inline-block;		
+		margin: 1em;	
+		overflow: hidden;	
+		position: relative;	
+		width: 70%;
+	}
+	#slider #descripcion-slider
+	{
+		background: rgba(255,255,255,0.5);
+		position: absolute;
+		top:78%;	
+		width: 100%;		
+	}
+	#slider #descripcion-slider .arriba,
+	#slider #descripcion-slider .abajo
+	{
+		text-decoration: none;	
+		font-size: 2em;	
+		line-height: 0.5em;
+	}
+	#slider #descripcion-slider .abajo:after
+	{
+		color: red;
+		content: "\e601";
+		font-family: "icomoon";
+	}
+	#slider #descripcion-slider .arriba:after
+	{
+		color: green;
+		content: "\e602";
+		font-family: "icomoon";		
+	}
+	#slider #descripcion-slider .by
+	{
+		margin: 0.5em; 
+	}	
+	#slider #descripcion-slider .titulo-slider
+	{
+		margin: 0.5em;
+	}
+	#slider #descripcion-slider .separacion
+	{
+		display: inline-block;	
+		vertical-align: top;		
+	}
+	#slider #descripcion-slider .votaciones
+	{
+		display: inline-block;	
+		padding: 10px;	
+		text-align: center;
+		width: 50px;
+	}
 	#contenido
 	{
 		width: 70%; 
