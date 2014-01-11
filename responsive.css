@@ -1,9 +1,86 @@
 @media screen and (min-width: 768px)
 {
+	@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot');
+	src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.woff') format('woff'),
+		url('fonts/icomoon.ttf') format('truetype'),
+		url('fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	}
 	body
 	{
 		margin: 0 auto;
 		max-width: 1200px;
+	}
+	#slider
+	{
+		display: inline-block;
+		margin: 1em 0 1em 1em;
+		width:70%;
+	}
+	#slider #slider-inner 
+	{
+		position: relative;
+	}
+	#slider #slider-inner .descripcion
+	{
+		background: white;
+		border-bottom: 3px solid #F50;
+		opacity: 0.7;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+	}
+	#slider #slider-inner .descripcion .text-slider
+	{
+		float: right;
+		width: 85%;
+	}
+	#slider #slider-inner .descripcion .text-slider .by
+	{
+		margin: 0.5em;
+	}
+	#slider #slider-inner .descripcion .text-slider .orange
+	{
+		color: #f50;
+	}
+	#slider #slider-inner .descripcion .text-slider .titulo-slider
+	{
+		font-style: italic;
+		font-size: 1.2em;
+		margin: 0;
+		padding: 0.5em;
+	}
+	#slider #slider-inner .descripcion .votar
+	{
+		float: left;
+		padding: 0.5em;
+		text-align: center;
+		width: 10%;
+	}
+	#slider #slider-inner .descripcion .down-vote,
+	#slider #slider-inner .descripcion .up-vote
+	{
+		text-decoration: none;
+	}
+	#slider #slider-inner .descripcion .down-vote:after
+	{
+		color: red;
+		content: "\e601";
+		font-family: "icomoon";
+	}
+	#slider #slider-inner .descripcion .up-vote:after
+	{
+		color: green;
+		content: "\e602";
+		font-family: "icomoon";
+	}
+	#slider #slider-inner #imagen 
+	{
+		position: relative;
 	}
 	#bienvenida
 	{
